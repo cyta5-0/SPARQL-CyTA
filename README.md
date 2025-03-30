@@ -13,7 +13,7 @@ El propósito del proyecto es permitir la consulta estructurada de los metadatos
    - Permite verificar la correcta estructuración de los metadatos.
    - Se debe incorporar la URL de los recursos.
 
-2. **RDF_MYSQL.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/RDF_MYSQL.php))  
+2. **RDF_MYSQL.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/RDF_MYSQL_NOVO.php)))  
    - Genera los datos RDF a partir de la base de datos MySQL.
    - Facilita la conversión de los metadatos de los artículos en un formato compatible con la web semántica.
 
