@@ -46,5 +46,5 @@ Este es un proyecto abierto. Se aceptan sugerencias y mejoras a través de pull 
 ---
 
 ### Contacto
-Para más información, visita [CyTA](https://www.cyta.com.ar/) o escribe a contacto@cyta.com.ar.
+Para más información, visita [CyTA](https://www.cyta.com.ar/) o escribe a cyta@cyta.ar.
 
