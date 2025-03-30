@@ -25,7 +25,6 @@ El propósito del proyecto es permitir la consulta estructurada de los metadatos
    
 ## Tareas pendientes
 
-- Incorporar las URLs de los recursos en **visual_rdf.php** para mejorar la representación de los datos.
 - Generar nuevas consultas SPARQL basadas en los metadatos actualizados.
 - Optimizar la integración con PHP y MySQL para mejorar la eficiencia del sistema.
 
