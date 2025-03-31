@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consultas SPARQL en CyTA</title>
+</head>
+<body>
+    <h1>Buscador SPARQL en CyTA</h1>
+    <form method="GET">
+        <textarea name="query" rows="5" cols="80">SELECT ?title ?date ?url WHERE { ?article a <https://schema.org/ScholarlyArticle> ; <https://schema.org/name> ?title ; <https://schema.org/datePublished> ?date ; <https://schema.org/url> ?url . } LIMIT 10</textarea><br>
+        <input type="submit" value="Ejecutar Consulta">
+    </form>
+
+    <?php
+    if (isset($_GET['query'])) {
+        $query = urlencode($_GET['query']);
+        $endpoint = "https://www.cyta.com.ar/cybercyta/sparql.php?query=" . $query;
+
+        $response = file_get_contents($endpoint);
+        echo "<h2>Resultados:</h2>";
+        echo "<pre>" . htmlspecialchars($response) . "</pre>";
+    }
+    ?>
+</body>
+</html>
