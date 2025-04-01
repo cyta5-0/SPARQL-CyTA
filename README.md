@@ -8,19 +8,19 @@ El propósito del proyecto es permitir la consulta estructurada de los metadatos
 
 ## Componentes principales
 
-1. **visual_rdf.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/visual_rdf.php))  
-   - Visualiza los datos RDF generados.
-   - Permite verificar la correcta estructuración de los metadatos.
-
-2. **RDF_MYSQL_NOVO.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/RDF_MYSQL_NOVO.php)))  
+1. **RDF_MYSQL_NOVO.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/RDF_MYSQL_NOVO.php)))  
    - Genera los datos RDF a partir de la base de datos MySQL.
    - Facilita la conversión de los metadatos de los artículos en un formato compatible con la web semántica.
+  
+2. **visual_rdf.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/visual_rdf.php))  
+   - Visualiza los datos RDF generados.
+   - Permite verificar la correcta estructuración de los metadatos.
 
 3. **sparql.php** ([Ver en CyTA](https://cyta.com.ar/cybercyta/sparql.php))  
    - Permite realizar consultas SPARQL sobre los datos RDF generados.
    - Se ampliará para incluir nuevas consultas con la información recientemente incorporada.
   
-4. **buscar.php** ([https://www.cyta.com.ar/cybercyta/buscar.php]) 
+4. **buscar.php** ([Ver en CyTA](https://www.cyta.com.ar/cybercyta/buscar.php))
    - Archivo PHP, permite realizar las búsqueds en SPARQL mdediante un query y generar un endpoint.   
 
 5. **articulos.rdf** ([Descargar RDF](https://cyta.com.ar/cybercyta/articulos.rdf))  
