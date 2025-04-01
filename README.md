@@ -20,7 +20,7 @@ El propósito del proyecto es permitir la consulta estructurada de los metadatos
    - Permite realizar consultas SPARQL sobre los datos RDF generados.
    - Se ampliará para incluir nuevas consultas con la información recientemente incorporada.
   
-4. **articulos.rdf** ([https://www.cyta.com.ar/cybercyta/buscar.php])**  
+4. **articulos.rdf** ([https://www.cyta.com.ar/cybercyta/buscar.php]) 
    - Archivo PHP, permite realizar las búsqueds en SPARQL mdediante un query y generar un endpoint.   
 
 5. **articulos.rdf** ([Descargar RDF](https://cyta.com.ar/cybercyta/articulos.rdf))  
