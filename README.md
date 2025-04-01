@@ -30,6 +30,9 @@ El propósito del proyecto es permitir la consulta estructurada de los metadatos
 
 - Generar nuevas consultas SPARQL basadas en los metadatos actualizados.
 - Optimizar la integración con PHP y MySQL para mejorar la eficiencia del sistema.
+- se elaboró un archivo generar_rdf.php toma los datos  MySQL de la tabla dc y genera un rdf se ve en https://www.cyta.com.ar/cybercyta/generar_rdf.php
+- se debe guardar como rdf con nombre de archivo generar_rdf.rdf
+- se generó un archivo buscar_novo.php para buscar en generar_rdf.rdf
 
 ## Instalación y uso
 
